@@ -1,6 +1,6 @@
 <img src="assets/head.png"/>
 
-
+### Architecture
 <img src="assets/pipeline.png"/>
 
 # The Table of Contents
@@ -15,9 +15,6 @@
   - [:four: Test](#four-test)
   - [:five: Evaluate the Robustness of Our model on All dataset](#five-evaluate-the-robustness-of-our-model-on-all-dataset)
 - [:relaxed: Results](#relaxed-results)
-- [:fire: Citation](#fire-citation)
-- [:sparkles: Acknowledgement](#sparkles-acknowledgement)
-- [:heart: Contact](#heart-contact)
 
 # :house: Dependencies and installation
 
@@ -28,7 +25,7 @@
 
 ```
 # git clone this repository
-git clone https://github.com/ZhenboSong/RobustSIRR.git
+git clone https://github.com/shoryasethia/RobustSIRR.git
 cd RobustSIRR
 
 # create new anaconda env
