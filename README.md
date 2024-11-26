@@ -1,27 +1,7 @@
 <img src="assets/head.png"/>
 
-<p align="center">
-    <!-- <a href="https://arxiv.org/abs/2310.05077">
-    <img src="https://img.shields.io/badge/arxiv-2310.05077-silver" alt="Paper"></a> -->
-    <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Robust_Single_Image_Reflection_Removal_Against_Adversarial_Attacks_CVPR_2023_paper.pdf"><img src="https://img.shields.io/badge/Pub-CVPR'23-olive" alt="Pub"></a>
-    <a href="https://github.com/ZhenboSong/RobustSIRR">
-    <img src= "https://img.shields.io/github/stars/ZhenboSong/RobustSIRR"></a>
-    <a href="https://github.com/ZhenboSong/RobustSIRR/blob/main/LICENSE"><img src="https://img.shields.io/github/license/visitworld123/FedFed?color=yellow" alt="License"></a>
-    <img style="border-radius:120px;width:120px;" src="https://badges.toozhao.com/badges/01HGAHWS6R0ZF6559D8ZWYKF9S/blue.svg" alt="Count">
-</p>
-
-<h1 align="center">Robust Single Image Reflection Removal Against Adversarial Attacks  (CVPR 2023)</h1>
-
-Zhenbo Song *, Zhenyuan Zhang *, [Kaihao Zhang](https://zhangkaihao.github.io/), [Wenhan Luo](https://whluo.github.io/), [Zhaoxin Fan](https://zhaoxinf.github.io/), [Wenqi Ren](https://sites.google.com/view/wenqiren/homepage), Jianfeng Lu
-
-**Keywords**: reflection removal, adversarial attack
-
-**Abstracts**: This paper addresses the problem of robust deep single-image reflection removal (SIRR) against adversarial attacks. Current deep learning-based SIRR methods have shown significant performance degradation due to unnoticeable distortions and perturbations on input images. For a comprehensive robustness study, we first conduct diverse adversarial attacks specifically for the SIRR problem, i.e. towards different attacking targets and regions. Then we propose a robust SIRR model, which integrates the cross-scale attention module, the multi-scale fusion module, and the adversarial image discriminator. By exploiting the multi-scale mechanism, the model narrows the gap between features from clean and adversarial images. The image discriminator adaptively distinguishes clean or noisy inputs, and thus further gains reliable robustness. Extensive experiments on Nature, SIR<sup>2</sup>, and Real datasets demonstrate that our model remarkably improves the robustness of SIRR across disparate scenes. 
 
 <img src="assets/pipeline.png"/>
-
-<p align="center">:star2: If RobustSIRR is helpful to your images or projects, please help star this repo. Thanks! :hugs:</p>
-
 
 # The Table of Contents
 - [:house: Dependencies and installation](#house-dependencies-and-installation)
@@ -181,30 +161,6 @@ CUDA_VISIBLE_DEVICES=0 python test.py --name ours_cvpr --hyper --gpu_ids 0 -r --
 <img src="assets/evaltable.png"/>
 
 :point_up: Comparison of different training strategies on three benchmark datasets. ‘w/’ and ‘w/o adv.’ mean training with or without adversarial images. **MSE** and **LPIPS** denote corresponding attacks over **Full** regions. &#8595; and &#8593; represent the degradation and improvement performance compared to the original prediction inputting clean images.
-
-
-# :fire: Citation
-
-If our work is useful for your research, please consider citing:
-
-```
-@InProceedings{Song_2023_CVPR,
-    author    = {Song, Zhenbo and Zhang, Zhenyuan and Zhang, Kaihao and Luo, Wenhan and Fan, Zhaoxin and Ren, Wenqi and Lu, Jianfeng},
-    title     = {Robust Single Image Reflection Removal Against Adversarial Attacks},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2023},
-    pages     = {24688-24698}
-}
-```
-
-# :sparkles: Acknowledgement
-
-- This project is based on [ERRNet](https://github.com/Vandermode/ERRNet)
-
-- Some codes are brought from [BasicSR](https://github.com/XPixelGroup/BasicSR), [Robust_Rain_Removal](https://github.com/yuyi-sd/Robust_Rain_Removal)
-
-- This Readme is inspired by [CodeFormer](https://github.com/sczhou/CodeFormer) and [FedFed](https://github.com/visitworld123/FedFed)
 
 - For More Awesome SIRR methods, you can refer to :+1: [Awesome-SIRR](https://github.com/Liar-zzy/Awesome-Single-Image-Reflection-Removal)
 
