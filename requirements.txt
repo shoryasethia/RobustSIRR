@@ -1,0 +1,16 @@
+dominate==2.9.0
+einops==0.7.0
+imageio==2.33.0
+lpips==0.1.4
+matplotlib==3.5.2
+numpy==1.22.3  # Ensure the runtime version of numpy is compatible
+Pillow==9.2.0
+PyYAML==6.0
+scipy==1.3.1  # Keep it here, but ensure build issues are resolved as above
+tensorboardX==2.2
+tensorflow==2.9.0
+torch==1.11.0
+torchvision==0.12.0
+tqdm==4.66.1
+visdom==0.2.4
+scikit-image==0.17.2
