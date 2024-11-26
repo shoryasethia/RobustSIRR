@@ -159,8 +159,3 @@ CUDA_VISIBLE_DEVICES=0 python test.py --name ours_cvpr --hyper --gpu_ids 0 -r --
 
 :point_up: Comparison of different training strategies on three benchmark datasets. ‘w/’ and ‘w/o adv.’ mean training with or without adversarial images. **MSE** and **LPIPS** denote corresponding attacks over **Full** regions. &#8595; and &#8593; represent the degradation and improvement performance compared to the original prediction inputting clean images.
 
-- For More Awesome SIRR methods, you can refer to :+1: [Awesome-SIRR](https://github.com/Liar-zzy/Awesome-Single-Image-Reflection-Removal)
-
-# :heart: Contact
-
-If you have any questions, please feel free to reach out at [`songzb@njust.edu.cn`](mailto:songzb@njust.edu.cn) or [`zyzhang.bbetter@gmail.com`](mailto:zyzhang.bbetter@gmail.com).
