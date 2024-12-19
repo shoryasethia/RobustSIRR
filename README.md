@@ -1,4 +1,4 @@
-<img src="assets/head.png"/>
+[<img src="assets/head.png"/>](https://github.com/shoryasethia/RobustSIRR/blob/main/Qualcomm-Report.pdf)
 
 ### Architecture
 <img src="assets/pipeline.png"/>
