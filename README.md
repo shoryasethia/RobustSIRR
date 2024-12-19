@@ -1,7 +1,14 @@
+# Competition: Qualcomm VisionX 
+- Team Name: ClarifyAI ( Team Id: Qual-230517)
+- **Rank 4**
+# Here's our Work
 [<img src="assets/head.png"/>](https://github.com/shoryasethia/RobustSIRR/blob/main/Qualcomm-Report.pdf)
 
 ### Architecture
 <img src="assets/pipeline.png"/>
+
+### Report
+Check out summary of our work in this [report](https://github.com/shoryasethia/RobustSIRR/blob/main/Qualcomm-Report.pdf)
 
 # The Table of Contents
 - [:house: Dependencies and installation](#house-dependencies-and-installation)
